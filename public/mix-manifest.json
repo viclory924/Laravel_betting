@@ -1,0 +1,15 @@
+{
+    "/js/pace.min.js": "/js/pace.min.js",
+    "/css/style.css": "/css/style.css",
+    "/js/main.js": "/js/main.js",
+    "/js/jquery-3.3.1.min.js": "/js/jquery-3.3.1.min.js",
+    "/js/iframeResizer.min.js": "/js/iframeResizer.min.js",
+    "/js/jquery.date-dropdowns.js": "/js/jquery.date-dropdowns.js",
+    "/js/jquery.responsImg.min.js": "/js/jquery.responsImg.min.js",
+    "/js/sticky.min.js": "/js/sticky.min.js",
+    "/js/swiper.min.js": "/js/swiper.min.js",
+    "/js/tabs.min.js": "/js/tabs.min.js",
+    "/js/modernizr.custom.js": "/js/modernizr.custom.js",
+    "/js/select2.full.min.js": "/js/select2.full.min.js",
+    "/js/validation.js": "/js/validation.js"
+}

@@ -1,0 +1,163 @@
+.hidden {
+    display: none;
+}
+
+
+.choose-game-popup img {
+    width: 100%;
+}
+
+.no-touchevents.game-page #header {
+    right: 0;
+}
+
+/*.field:not(.error-field) .field-error {*/
+    /*display: none;*/
+/*}*/
+.ajaxLoader {
+    
+    position: fixed;
+    z-index: 99999;
+	overflow-y: hidden !important;
+    width: 100%;
+    height: 100vh !important;
+    left: 0px;
+    top: 0px !important;
+    background: rgba(42, 53, 57, .2);
+	
+}
+
+
+ .ajaxLoader .loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -35px 0 0 -35px;
+}
+
+.choose-game-popup-image {
+    width: 100%;
+    height: 0;
+    padding: 0 0 56.25%;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.office-items .tabs-content .tab .history_datepicker {
+    display: inline-block;
+}
+.office-items .tabs-content .tab .btn.jq_new_transactions {
+    display: inline-block;
+    min-width: 0;
+    padding: 8px 15px;
+}
+
+#depositLimitsZone .form .removeLimit:disabled {
+    cursor: default;
+    opacity: 0.7;
+}
+
+/* rus btn width fix*/
+#depositLimitsZone .form .limit-row .col-md-6 {
+    width: calc(100% - 170px);
+}
+#depositLimitsZone .form .limit-row .col-md-6.newLimitSetCol {
+    width: 170px;
+}
+
+.bg-waiting,
+.bg-waiting:hover,
+.bg-waiting:active {
+    background-image: -webkit-linear-gradient(-45deg, rgba(124,208,53,.5) 25%, transparent 25%, transparent 50%, rgba(124,208,53,.5) 50%, rgba(124,208,53,.5) 75%, transparent 75%, transparent) !important;
+    background-image: linear-gradient(-45deg, rgba(124,208,53,.5) 25%, transparent 25%, transparent 50%, rgba(124,208,53,.5) 50%, rgba(124,208,53,.5) 75%, transparent 75%, transparent) !important;
+    background-size: 16px 16px !important;
+    -webkit-animation: bg-waiting 1s linear infinite;
+    animation: bg-waiting 1s linear infinite;
+}
+@-webkit-keyframes bg-waiting {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 16px 0;
+    }
+}
+@keyframes bg-waiting {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 16px 0;
+    }
+}
+
+.ajax-upload-box .message {
+    margin: 50px auto;
+}
+
+.we-give span:not(.MONEY) {
+    display: block;
+    margin: 0 0 6px;
+}
+
+.we-give span.MONEY {
+    display: inline-block !important;
+}
+
+.sportsbook-button {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 700;
+    width: 160px;
+    text-align: center;
+    padding: 0;
+    background: linear-gradient( to top, rgb(55,123,0) 0%, rgb(55,123,0) 21%, rgb(66,146,2) 30%, rgb(77,168,3) 79%, rgb(130,197,75) 79%, rgb(93,160,38) 95%, rgb(55,123,0) 100%);
+    border: 1px solid #377b00;
+    border-radius: 9px 9px 0 0;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 35px;
+    display: inline-block;
+}
+
+.psp-types img{
+
+	margin-bottom : 0px;
+	margin-left : 35px;	
+	position : relative;
+	top : 30px;
+	height : 40px;
+}
+
+.currency{
+	position : relative;
+	margin-left : 4px;
+}
+
+.error-text {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.notification-popup .text {
+    font-size: 24px;
+    font-family: "Myriad Pro";
+    color: #FFF;
+    line-height: 1.25;
+    text-align: center;
+    /*text-shadow: 1.5px 2.598px rgba(0,0,0,.5);*/
+    background: linear-gradient(350deg, rgba(253,156,2,1) 0%, rgba(255,227,103,1) 52%, rgba(250,176,2,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.are-you-ready .golden-text:before{
+	text-shadow : none !important;
+}
